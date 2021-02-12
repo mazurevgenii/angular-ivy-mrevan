@@ -1,0 +1,26 @@
+
+
+p {
+  font-family: Lato;
+}
+
+.main {
+  position: relative;
+  width: var(--box-width);
+  height: 200px;
+
+  border: 1px solid black;
+}
+
+.line {
+  position: absolute;
+  
+  background-color: red;
+}
+
+.line0 {
+  top: 13px;
+  left: 0;
+  height: 4px;
+  width: calc(var(--box-width) / 6);
+}
